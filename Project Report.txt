@@ -1,0 +1,135 @@
+# AI Student Interest Analyzer
+
+## 1. Introduction
+
+The AI Student Interest Analyzer is an automation project that helps students receive personalized career guidance based on their interests and career goals. The system collects student information through a Google Form, processes the data using Gemini AI, and automatically sends a customized career recommendation via email.
+
+This project demonstrates the practical use of Artificial Intelligence and workflow automation tools to provide career support in an efficient and scalable manner.
+
+---
+
+## 2. Objective
+
+The main objectives of this project are:
+
+* To collect student interests and career goals.
+* To analyze student data using AI.
+* To generate personalized career recommendations.
+* To automate email communication.
+* To reduce manual effort in career counseling.
+
+---
+
+## 3. Tools and Technologies Used
+
+* Google Forms
+* Google Sheets
+* Zapier
+* Gemini AI
+* Gmail
+
+---
+
+## 4. System Workflow
+
+The project follows the workflow below:
+
+Google Form → Google Sheets → Gemini AI → Gmail
+
+### Step 1: Data Collection
+
+A Google Form is created with the following fields:
+
+* Name
+* Branch
+* Interests
+* Career Goal
+* Email Address
+
+Students submit their responses through the form.
+
+### Step 2: Data Storage
+
+All responses are automatically stored in Google Sheets.
+
+### Step 3: AI Analysis
+
+Zapier detects every new form submission and sends the student's information to Gemini AI.
+
+Gemini analyzes:
+
+* Student interests
+* Branch of study
+* Career goals
+
+It then generates a personalized career guidance message.
+
+### Step 4: Automated Email
+
+The AI-generated recommendation is sent to the student through Gmail automatically.
+
+---
+
+## 5. Prompt Used
+
+You are a career advisor.
+
+Student Name: {{Name}}
+
+Branch: {{Branch}}
+
+Interests: {{Interests}}
+
+Career Goal: {{Career Goal}}
+
+Write a short personalized career guidance message.
+
+Requirements:
+
+* Friendly tone
+* Under 100 words
+* Suggest one skill to learn
+* End with encouragement
+
+---
+
+## 6. Sample Output
+
+Hello Rahul,
+
+Your interest in Artificial Intelligence and Python is a strong foundation for becoming a Machine Learning Engineer. Focus on learning Data Structures and Machine Learning fundamentals while building small projects. Consistent practice and curiosity will help you succeed. Keep learning and exploring new technologies. Best wishes for your future career.
+
+---
+
+## 7. Advantages
+
+* Personalized career guidance
+* Fully automated workflow
+* Saves time and effort
+* Easy to implement
+* Scalable for schools and colleges
+* Uses modern AI technology
+
+---
+
+## 8. Limitations
+
+* Requires internet connectivity
+* AI responses depend on input quality
+* Automation platforms may have usage limits on free plans
+
+---
+
+## 9. Future Enhancements
+
+* Career path recommendations with detailed roadmaps
+* Integration with LinkedIn Learning and Coursera
+* Skill gap analysis
+* Career progress tracking dashboard
+* Multi-language support
+
+---
+
+## 10. Conclusion
+
+The AI Student Interest Analyzer successfully combines Google Forms, Google Sheets, Zapier, Gemini AI, and Gmail to automate career guidance for students. The system collects student information, analyzes it using AI, and delivers personalized recommendations through email. This project demonstrates how AI and automation can improve educational support services efficiently and effectively.
