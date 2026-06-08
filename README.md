@@ -1,2 +1,21 @@
-# AI-Student-Interest-Analyzer
-This is an automation project that collects student information through a Google Form, analyzes their interests and career goals using Gemini AI, and automatically sends personalized career guidance via email. The project integrates Google Forms, Google Sheets, Zapier, Gemini AI, and Gmail to provide an efficient career recommendation system.
+# AI Student Interest Analyzer
+
+## Project Overview
+This project collects student interests through Google Forms,
+uses Gemini AI to generate career guidance,
+and automatically sends personalized emails.
+
+## Workflow
+Google Form → Google Sheets → Gemini AI → Gmail
+
+## Tools Used
+- Google Forms
+- Google Sheets
+- Zapier
+- Gemini AI
+- Gmail
+
+## Features
+- Automated responses
+- Personalized career suggestions
+- Email automation
